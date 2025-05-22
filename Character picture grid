@@ -1,0 +1,18 @@
+print('Name: S. Vyshnavi \nUSN: 1AY24AI098 \nSection: O\n ')
+
+grid = [
+    ['.', '.', '.', '.', '.', '.'],
+    ['.', 'O', 'O', '.', '.', '.'],
+    ['O', 'O', 'O', 'O', '.', '.'],
+    ['O', 'O', 'O', 'O', 'O', '.'],
+    ['.', 'O', 'O', 'O', 'O', 'O'],
+    ['O', 'O', 'O', 'O', 'O', '.'],
+    ['O', 'O', 'O', 'O', '.', '.'],
+    ['.', 'O', 'O', '.', '.', '.'],
+    ['.', '.', '.', '.', '.', '.']
+]
+
+for x in range(len(grid[0])):
+    for y in range(len(grid)):
+        print(grid[y][x], end='')
+    print()
