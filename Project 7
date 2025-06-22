@@ -34,7 +34,6 @@ def rect_in_circle(circle: Circle, rect: Rectangle) -> bool:
     return all(point_in_circle(circle, corner) for corner in corners)
 
 def rect_circle_overlap(circle: Circle, rect: Rectangle) -> bool:
-    # Get all 4 corners
     corners = [
         rect.corner,
         Point(rect.corner.x + rect.width, rect.corner.y),
