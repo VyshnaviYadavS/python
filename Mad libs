@@ -1,3 +1,5 @@
+print('Name: S. Vyshnavi \nUSN: 1AY24AI098 \nSection: O\n ')
+
 import re
 
 def mad_libs(file_path, output_path="mad_libs_result.txt"):
